@@ -66,10 +66,14 @@ const UndoButton = ({ undo }: UndoButtonProps) => {
         </TooltipTrigger>
 
         <TooltipContent className="flex gap-1">
-          <Kbd className={cn("bg-slate-800", { "text-xs": isMac })}>
+          <Kbd
+            className={cn("bg-slate-800 dark:bg-slate-100", {
+              "text-xs": isMac,
+            })}
+          >
             {isMac ? "⌘" : "Ctrl"}
           </Kbd>
-          <Kbd className="bg-slate-800">Z</Kbd>
+          <Kbd className="bg-slate-800 dark:bg-slate-100">Z</Kbd>
         </TooltipContent>
       </Tooltip>
     </TooltipProvider>

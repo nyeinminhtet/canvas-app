@@ -58,7 +58,7 @@ const ClearButton = ({ canvasRef, clear }: ClearButtonProps) => {
         </TooltipTrigger>
 
         <TooltipContent>
-          <Kbd className="bg-slate-900">C</Kbd>
+          <Kbd className="bg-slate-900 dark:bg-slate-100">C</Kbd>
         </TooltipContent>
       </Tooltip>
     </TooltipProvider>
