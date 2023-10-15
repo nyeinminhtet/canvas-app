@@ -7,11 +7,6 @@ import { Providers } from "./provider";
 
 const inter = Inter({ subsets: ["latin"] });
 
-// export const metadata: Metadata = {
-//   title: "Canvas Drawing",
-//   description: "Draw with friends in real-time.",
-// };
-
 const TITLE = "Canvas Drawing";
 const DESCRIPTION = "Draw with friends in real-time.";
 
@@ -24,7 +19,7 @@ export const metadata = {
     maximumScale: 1,
     userScalable: "no",
   },
-  metadataBase: "https://canvas-drawing-rt.vercel.app",
+  metadataBase: "https://canvas-app-rt.vercel.app",
   twitter: {
     card: "summary_large_image",
     title: TITLE,
@@ -38,7 +33,7 @@ export const metadata = {
     description: DESCRIPTION,
     images: ["/og"],
     siteName: TITLE,
-    url: "https://canvas-drawing-rt.vercel.app",
+    url: "https://canvas-app-rt.vercel.app",
   },
   icons: {
     icon: "/favicon.ico",
